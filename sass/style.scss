@@ -19,22 +19,45 @@ header{
 
         ul{ 
             font-family: 'Poppins', sans-serif;
-            color:$color-tipografia;
             display: flex;
             gap:40px; 
             list-style: none;   
             margin-left: 60px;
             padding: 0;
+            a{
+                color:$color-tipografia;
+                text-decoration: none;
+                transition: all .2s ease;
+            }
+            a:hover{
+                color:#ffff;
+            }
         }
         
     
     }
     div{
+        text-transform: capitalize;
         background-color:$color-inicio;
         color:$color-tipografia;
         padding: 12px 25px;
         border-radius: 20px;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
+        transition: all .5s ease;
+    }
+
+    div:hover{
+        color:#ffff;
+
+    }
+}
+
+main{
+    background-color: $color-principal;
+    height:60vh;
+    .imagen{
+        display: flex;
+        @include flex(center,center);
     }
 }

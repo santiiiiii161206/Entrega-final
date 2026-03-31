@@ -20,20 +20,43 @@ header nav {
 }
 header nav ul {
   font-family: "Poppins", sans-serif;
-  color: #FFFFFF;
   display: flex;
   gap: 40px;
   list-style: none;
   margin-left: 60px;
   padding: 0;
 }
+header nav ul a {
+  color: #c3dfe0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+header nav ul a:hover {
+  color: white;
+}
 header div {
+  text-transform: capitalize;
   background-color: #5D8679;
-  color: #FFFFFF;
+  color: #c3dfe0;
   padding: 12px 25px;
   border-radius: 20px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+header div:hover {
+  color: white;
+}
+
+main {
+  background-color: #111;
+  height: 60vh;
+}
+main .imagen {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
