@@ -1,0 +1,40 @@
+//reset
+@use "base/reset";
+@use "utilities/variables" as *;
+@use "utilities/mixin.scss" as *;
+
+//nesting
+header{
+    background-color:$color-nav;
+    @include flex(space-between,center);
+    padding: 0 70px;
+    
+    img{
+        width: auto;
+        margin-right: auto; 
+    }
+
+    nav{
+        margin-right: auto;
+
+        ul{ 
+            font-family: 'Poppins', sans-serif;
+            color:$color-tipografia;
+            display: flex;
+            gap:40px; 
+            list-style: none;   
+            margin-left: 60px;
+            padding: 0;
+        }
+        
+    
+    }
+    div{
+        background-color:$color-inicio;
+        color:$color-tipografia;
+        padding: 12px 25px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+}
