@@ -6,9 +6,20 @@
 
 header {
   background-color: #3B7679;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
 header img {
   width: auto;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
