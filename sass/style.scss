@@ -1,2 +1,11 @@
 //reset
 @use "base/reset";
+@use "utilities/variables" as *;
+
+header{
+    
+    background-color:$color-nav;
+    img{
+        width:auto;
+    }
+}

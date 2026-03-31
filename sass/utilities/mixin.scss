@@ -1,0 +1,7 @@
+//con parametros
+@mixin flex($justify,$alling){
+    display: flex;
+    justify-content: $justify;
+    align-items: $alling;
+}
+
