@@ -128,6 +128,7 @@ main .col {
 
 .Second {
   background-color: #090909;
+  padding-bottom: 1px;
 }
 .Second h2 {
   padding-top: 50px;
@@ -171,15 +172,36 @@ main .col {
 .Second .col-2 nav ul li {
   padding-right: 70px;
 }
-.Second h4 {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Second .especifico {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
   background-color: #5D8679;
   max-width: 700px;
-  padding: 100px 200px;
+  padding: 50px 150px;
   border-radius: 20px;
+}
+.Second .especifico span {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.Second .especifico p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.Second .especifico .contactnow {
+  margin-right: 18px;
+  color: whitesmoke;
+  max-width: 220px;
+  margin: 10px;
+  padding: 20px 35px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  background-color: #1C3032;
 }
 
 .imagen {
@@ -190,6 +212,24 @@ main .col {
   width: 100%;
   height: auto;
   padding: 30px 20px 20px 20px;
+}
+
+.separador {
+  background-color: #3B7679;
+  padding: 1px;
+}
+
+footer {
+  background-color: #090909;
+}
+footer p {
+  margin: 0;
+  color: #c3dfe0;
+  font-size: 20px;
+  text-align: center;
+}
+footer p span {
+  font-family: "Caveat", cursive;
 }
 
 /*# sourceMappingURL=main.css.map */

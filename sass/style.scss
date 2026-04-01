@@ -52,7 +52,7 @@ header{
 
     }
 }
-
+//estilos main
 main{
     background-color: $color-principal;
     @include flex(space-between,center);
@@ -111,8 +111,10 @@ main{
             margin-top: 40px;
         }
     }
+    //estilos div 
 .Second{
     background-color:$color-principal;
+    padding-bottom: 1px;
     
     h2{
         padding-top: 50px;
@@ -148,10 +150,26 @@ main{
                 }
             }
         }
-    h4{
-        margin-top: 100px;
-        @include flex(center,center);
+    .especifico{       
+        text-align: center;
+        margin-bottom:200px;
+        margin-top:200px;
+        margin-left:600px;
         @include search();
+        span{
+            font-size:25px;
+            @include tipografia(700);
+        }
+        p{
+            font-size:12px;
+            @include tipografia(300);
+        }
+        .contactnow{
+            margin-right:18px;
+            @include boton;
+            @include tipografia(650);
+            background-color:$color-tienda;
+        }
     }
 }
 
@@ -165,3 +183,22 @@ main{
             padding: 30px 20px 20px 20px;
         }
     }
+
+    .separador{
+        background-color:$color-nav;
+        padding:1px;
+    }
+//estilos footer
+footer{
+    background-color:$color-principal;
+    p{
+        //soluciono espacios en blancos footer
+        margin:0;
+        color:$color-tipografia;
+        font-size:20px;
+        text-align: center;
+        span{
+            font-family: 'Caveat', cursive;
+        }
+    }
+}
