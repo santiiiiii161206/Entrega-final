@@ -55,15 +55,13 @@ main {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  padding: 20px;
-  padding-bottom: 100px;
+  padding: 20px 20px 100px;
 }
 main .texto {
-  width: 50%;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+  width: 50%;
+  gap: 20px;
   padding-left: 150px;
   padding-bottom: 100px;
 }
@@ -73,7 +71,8 @@ main .texto .tienda {
   max-width: 220px;
   background-color: #1C3032;
   color: #3B7679;
-  margin: 1px;
+  margin-top: 30px;
+  margin-bottom: 1px;
   padding: 5px 3px;
   border-radius: 50px;
 }
@@ -101,10 +100,10 @@ main .texto .Contactar {
   background-color: transparent;
 }
 main h1 {
-  margin-top: 70px;
-  font-size: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  margin-top: 70px;
+  font-size: 60px;
   color: #3B7679;
 }
 main p {
@@ -122,7 +121,7 @@ main .col {
   margin: 1px;
   padding: 10px 20px;
   border-radius: 20px;
-  margin-right: 90px;
+  margin-right: 20px;
   margin-top: 40px;
 }
 
@@ -148,7 +147,7 @@ main .col {
 .Second p {
   margin-top: 15px;
   font-family: "Poppins", sans-serif;
-  font-weight: 300px;
+  font-weight: 300;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,17 +165,14 @@ main .col {
 .Second .col-2 p {
   margin: 10px;
 }
-.Second .col-2 nav ul {
-  padding-left: 10px;
-}
-.Second .col-2 nav ul li {
-  padding-right: 70px;
+.Second .col-2 ul {
+  text-align: center;
 }
 .Second .especifico {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 0 20px;
   text-align: center;
-  margin-bottom: 200px;
-  margin-top: 200px;
-  margin-left: 600px;
   background-color: #5D8679;
   max-width: 700px;
   padding: 50px 150px;
@@ -216,7 +212,7 @@ main .col {
 
 .separador {
   background-color: #3B7679;
-  padding: 1px;
+  height: 1px;
 }
 
 footer {

@@ -57,15 +57,12 @@ main{
     background-color: $color-principal;
     @include flex(space-between,center);
     gap: 40px;
-    padding: 20px;
-    padding-bottom:100px;
-
+    padding: 20px 20px 100px;
     .texto{
-        width: 50%;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items:center;
-        gap: 15px   ;
+        width: 50%;
+        gap:20px   ;
         padding-left: 150px;
         padding-bottom: 100px;
         .tienda{
@@ -73,7 +70,8 @@ main{
             max-width: 220px;
             background-color:$color-tienda;
             color:$color-nav;
-            margin: 1px;
+            margin-top: 30px;
+            margin-bottom: 1px;
             padding: 5px 3px;
             border-radius: 50px;
         }
@@ -92,9 +90,9 @@ main{
         }
         }
         h1{
-            margin-top: 70px;
-            font-size: 40px;
             @include tipografia(700);
+            margin-top: 70px;
+            font-size: 60px;
             color: $color-nav;
         }
         p{
@@ -107,7 +105,7 @@ main{
         //cambia estilo boostrap
         .col{
             @include col();
-            margin-right:90px;
+            margin-right:20px;
             margin-top: 40px;
         }
     }
@@ -130,7 +128,7 @@ main{
     }
     p{
         margin-top:15px;
-        @include tipografia(300px);
+        @include tipografia(300);
         @include flex(center,center);
     }
     //cambia estilo boostrap(otra vez)
@@ -141,20 +139,15 @@ main{
             p{
                 margin:10px;
             }
-            nav{
-                ul{
-                    padding-left:10px;
-                    li{
-                        padding-right:70px;
-                    }
-                }
+            ul{
+                text-align: center; 
             }
         }
     .especifico{       
+        max-width: 500px;
+        margin:100px auto;
+        padding: 0 20px;
         text-align: center;
-        margin-bottom:200px;
-        margin-top:200px;
-        margin-left:600px;
         @include search();
         span{
             font-size:25px;
@@ -186,7 +179,7 @@ main{
 
     .separador{
         background-color:$color-nav;
-        padding:1px;
+        height:1px;
     }
 //estilos footer
 footer{
