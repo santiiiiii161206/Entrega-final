@@ -4,4 +4,15 @@
     justify-content: $justify;
     align-items: $alling;
 }
+// con/sin parametros
+@mixin tipografia($weight){
+    font-family: 'Poppins', sans-serif;
+    font-weight: $weight;
+}
 
+@mixin boton(){
+    max-width: 220px;
+    margin: 10px;
+    padding: 22px 40px;
+    border-radius: 12px;
+}
