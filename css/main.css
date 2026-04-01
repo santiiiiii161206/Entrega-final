@@ -56,6 +56,7 @@ main {
   align-items: center;
   gap: 40px;
   padding: 20px;
+  padding-bottom: 100px;
 }
 main .texto {
   width: 50%;
@@ -81,10 +82,23 @@ main .texto button {
 }
 main .texto .Producto {
   background-color: #3B7679;
+  color: whitesmoke;
   max-width: 220px;
   margin: 10px;
-  padding: 22px 40px;
-  border-radius: 12px;
+  padding: 20px 35px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+}
+main .texto .Contactar {
+  color: whitesmoke;
+  max-width: 220px;
+  margin: 10px;
+  padding: 20px 35px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  background-color: transparent;
 }
 main h1 {
   margin-top: 70px;
@@ -101,9 +115,76 @@ main p {
   line-height: 1.5;
   color: #c3dfe0;
 }
+main .col {
+  background-color: #1C3032;
+  color: #3B7679;
+  max-width: 700px;
+  margin: 1px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+
+.Second {
+  background-color: #090909;
+}
+.Second h2 {
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.Second h2 .normal {
+  color: #c3dfe0;
+}
+.Second h2 .color {
+  color: #3B7679;
+}
+.Second p {
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Second .col-2 {
+  background-color: #1C3032;
+  color: #3B7679;
+  max-width: 700px;
+  margin: 1px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+.Second .col-2 p {
+  margin: 10px;
+}
+.Second .col-2 nav ul {
+  padding-left: 10px;
+}
+.Second .col-2 nav ul li {
+  padding-right: 70px;
+}
+.Second h4 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5D8679;
+  max-width: 700px;
+  padding: 100px 200px;
+  border-radius: 20px;
+}
 
 .imagen {
   width: 50%;
+  margin-right: 100px;
 }
 .imagen img {
   width: 100%;

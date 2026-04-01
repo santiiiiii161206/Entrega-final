@@ -11,8 +11,34 @@
 }
 
 @mixin boton(){
+    color:whitesmoke;
     max-width: 220px;
     margin: 10px;
-    padding: 22px 40px;
-    border-radius: 12px;
+    padding: 20px 35px;
+    border-radius: 15px;
+}
+
+@mixin col(){
+    background-color: #1C3032;
+    color: #3B7679;
+    max-width: 700px;
+    margin: 1px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+@mixin col-2(){
+    background-color: #1C3032;
+    color: #3B7679;
+    max-width: 700px;
+    margin: 1px;
+    padding: 120px 120px;
+    border-radius: 20px;
+}
+
+@mixin search(){
+    background-color: #5D8679;
+    max-width: 700px;
+    padding:100px 200px;
+    border-radius:20px;
 }
