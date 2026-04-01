@@ -55,9 +55,23 @@ header{
 
 main{
     background-color: $color-principal;
-    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+
+    .texto{
+        width: 40%;
+    }
+
     .imagen{
-        display: flex;
-        @include flex(center,center);
+        width: 50%;
+
+        img{
+            width: 100%;
+            height: auto;
+            padding: 30px 20px 20px 20px;
+        }
     }
 }

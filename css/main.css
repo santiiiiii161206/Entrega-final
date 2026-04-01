@@ -50,13 +50,22 @@ header div:hover {
 
 main {
   background-color: #111;
-  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px;
+}
+main .texto {
+  width: 40%;
 }
 main .imagen {
-  display: flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
+}
+main .imagen img {
+  width: 100%;
+  height: auto;
+  padding: 30px 20px 20px 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
