@@ -17,13 +17,13 @@ header{
 
     nav{
         margin-right: auto;
-
         ul{ 
             font-family: 'Poppins', sans-serif;
             display: flex;
             gap:40px; 
             list-style: none;   
-            margin-left: 60px;
+            margin-top:10px;
+            text-align: center;
             padding: 0;
             a{
                 color:$color-tipografia;
@@ -76,8 +76,15 @@ main{
             padding: 5px 3px;
             border-radius: 50px;
         }
+    h1{
+        align-self: flex-start;
+    }
         button{
             margin-top: 40px;
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
         }
         .Producto{
             background-color: $color-nav;
@@ -85,11 +92,15 @@ main{
             @include tipografia(650);
         }
         .Contactar{
+            display: inline-block;
+            text-decoration: none;
+            color: inherit;
             @include boton;
-            @include tipografia(650);
             background-color: transparent;
+            border: 2px solid $color-nav;
+
         }
-        }
+    }
         h1{
             @include tipografia(700);
             margin-top: 70px;
@@ -138,18 +149,26 @@ main{
             margin-right:90px;
             margin-top: 40px;
             p{
-                margin:10px;
+                text-align: center;
             }
             ul{
-                text-align: center; 
+                text-align: left; 
             }
         }
-    .especifico{       
+    .especifico{  
         max-width: 500px;
         margin:100px auto;
         padding: 0 20px;
         text-align: center;
         @include search();
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                color: inherit;
+                text-decoration: none;
+            }
         span{
             font-size:25px;
             @include tipografia(700);
@@ -159,10 +178,11 @@ main{
             @include tipografia(300);
         }
         .contactnow{
-            margin-right:18px;
+            margin-right:25px;
             @include boton;
             @include tipografia(650);
             background-color:$color-tienda;
+        }
         }
     }
 }
@@ -210,11 +230,23 @@ main{
         }
         .tienda{
             @include tipografia(10);
-            max-width: 220px;
             background-color:$color-tienda;
             color:$color-nav;
             margin: 30px auto 0 auto;
             padding: 5px 5px;
             border-radius: 50px;
         }
+        h1{
+            padding-top:2px;
+            @include tipografia(700);
+            @include flex(center,center);
+            gap:15px;
+            .normal{
+            color:$color-tipografia;
+            }
+            .color{
+                color:$color-nav;
+        }
+        }
+    //estilos boostrap contacto
 }
