@@ -228,4 +228,24 @@ footer p span {
   font-family: "Caveat", cursive;
 }
 
+main .texto-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 20px;
+  font-size: 14px;
+}
+main .tienda {
+  font-family: "Poppins", sans-serif;
+  font-weight: 10;
+  max-width: 220px;
+  background-color: #1C3032;
+  color: #3B7679;
+  margin: 30px auto 0 auto;
+  padding: 5px 5px;
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */
