@@ -307,15 +307,44 @@ main h1 .color {
 }
 
 .h-info {
+  color: #3B7679;
   padding-top: 60px;
-  padding-left: 300px;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 1000;
 }
 
 .formulario-texto {
-  padding-left: 300px;
+  color: #c3dfe0;
+  text-align: center;
   font-weight: 700;
+}
+
+.info-formulario {
+  background-color: #090909;
+}
+.info-formulario .form-label {
+  font-weight: 1000;
+  color: #3B7679;
+}
+.info-formulario .formulario-contenedor {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.info-formulario form {
+  display: flex;
+  flex-direction: column;
+}
+.info-formulario .btn-enviar {
+  align-self: center;
+  border: 2px solid whitesmoke;
+  background-color: transparent;
+  color: whitesmoke;
+  max-width: 220px;
+  margin: 10px;
+  padding: 20px 35px;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

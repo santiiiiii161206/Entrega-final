@@ -274,11 +274,35 @@ main{
 }
 //estilos formulario
     .h-info{
+        color: $color-nav;
         padding-top:60px;
-        padding-left:300px;
+        text-align: center;
         @include tipografia(1000);
     }
     .formulario-texto{
-        padding-left:300px;
+        color:$color-tipografia;
+        text-align: center;
         font-weight:700;
+    }
+    .info-formulario {
+        background-color:$color-principal;
+        .form-label{
+            font-weight:1000;
+            color:$color-nav;
+        }
+        .formulario-contenedor{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        .btn-enviar{
+            align-self: center;
+            border: 2px solid whitesmoke;
+            background-color:transparent;
+            @include boton;
+        }
     }
