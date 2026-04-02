@@ -35,7 +35,6 @@ header{
             }
         }
         
-    
     }
     div{
         text-transform: capitalize;
@@ -304,5 +303,22 @@ main{
             border: 2px solid whitesmoke;
             background-color:transparent;
             @include boton;
+        }
+    }
+
+    //iniciar sesion
+    main {
+        h1 {
+            padding-top: 50px;
+            @include tipografia(700);
+            gap: 15px;
+        }
+        p {
+            .normal {
+                color: $color-tipografia;
+            }
+            .color {
+                color: $color-nav;
+            }
         }
     }
