@@ -248,5 +248,37 @@ main{
                 color:$color-nav;
         }
         }
-    //estilos boostrap contacto
+}   
+
+//estilos boostrap contacto
+    .info   {
+        background-color:$color-principal;
+    }
+    .col{
+        border: 2px solid whitesmoke;
+        @include col();
+        margin-right:90px;
+        margin-top: 40px
+        p{
+            text-align: center;
+        }
+    .name{
+        font-weight:1000;
+        text-align: left;
+    }
+    .extra{
+        
+        text-align: center;
+        font-size:12px;
+    }
 }
+//estilos formulario
+    .h-info{
+        padding-top:60px;
+        padding-left:300px;
+        @include tipografia(1000);
+    }
+    .formulario-texto{
+        padding-left:300px;
+        font-weight:700;
+    }

@@ -281,4 +281,41 @@ main h1 .color {
   color: #3B7679;
 }
 
+.info {
+  background-color: #090909;
+}
+
+.col {
+  border: 2px solid whitesmoke;
+  background-color: #1C3032;
+  color: #3B7679;
+  max-width: 700px;
+  margin: 1px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 90px;
+  margin-top: 40px p;
+  margin-top-text-align: center;
+}
+.col .name {
+  font-weight: 1000;
+  text-align: left;
+}
+.col .extra {
+  text-align: center;
+  font-size: 12px;
+}
+
+.h-info {
+  padding-top: 60px;
+  padding-left: 300px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+}
+
+.formulario-texto {
+  padding-left: 300px;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=main.css.map */
