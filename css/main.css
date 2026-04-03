@@ -60,8 +60,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
-  padding: 20px 20px 100px;
+  min-height: 100vh;
 }
 main .texto {
   display: flex;
@@ -84,13 +83,19 @@ main .texto .tienda {
 }
 main .texto h1 {
   align-self: flex-start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 70px;
+  font-size: 60px;
+  color: #3B7679;
 }
-main .texto button {
-  margin-top: 40px;
-}
-main .texto button a {
-  color: inherit;
-  text-decoration: none;
+main .texto p {
+  margin-top: 25px;
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #c3dfe0;
 }
 main .texto .Producto {
   background-color: #3B7679;
@@ -113,21 +118,6 @@ main .texto .Contactar {
   border-radius: 15px;
   background-color: transparent;
   border: 2px solid #3B7679;
-}
-main h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  margin-top: 70px;
-  font-size: 60px;
-  color: #3B7679;
-}
-main p {
-  margin-top: 25px;
-  max-width: 500px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  line-height: 1.5;
-  color: #c3dfe0;
 }
 main .col {
   background-color: #1C3032;
@@ -193,6 +183,16 @@ main .col {
   padding: 50px 150px;
   border-radius: 20px;
 }
+.Second .especifico span {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.Second .especifico p {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
 .Second .especifico div {
   display: flex;
   justify-content: center;
@@ -202,17 +202,7 @@ main .col {
   color: inherit;
   text-decoration: none;
 }
-.Second .especifico div span {
-  font-size: 25px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-}
-.Second .especifico div p {
-  font-size: 12px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-}
-.Second .especifico div .contactnow {
+.Second .especifico .contactnow {
   margin-right: 25px;
   color: whitesmoke;
   max-width: 220px;
@@ -252,16 +242,20 @@ footer p span {
   font-family: "Caveat", cursive;
 }
 
-main .texto-2 {
+.contact-styles {
+  min-height: auto;
+  padding: 60px 0;
+}
+.contact-styles .texto-2 {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin: 0 auto;
   text-align: center;
   gap: 20px;
-  font-size: 14px;
+  font-size: 18px;
 }
-main .tienda {
+.contact-styles .tienda {
   font-family: "Poppins", sans-serif;
   font-weight: 10;
   background-color: #1C3032;
@@ -270,7 +264,8 @@ main .tienda {
   padding: 5px 5px;
   border-radius: 50px;
 }
-main h1 {
+.contact-styles .our-team {
+  font-size: 60px;
   padding-top: 2px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -279,18 +274,17 @@ main h1 {
   align-items: center;
   gap: 15px;
 }
-main h1 .normal {
+.contact-styles .our-team .normal {
   color: #c3dfe0;
 }
-main h1 .color {
+.contact-styles .our-team .color {
   color: #3B7679;
 }
 
 .info {
   background-color: #090909;
 }
-
-.col {
+.info .col {
   border: 2px solid whitesmoke;
   background-color: #1C3032;
   color: #3B7679;
@@ -299,43 +293,43 @@ main h1 .color {
   padding: 10px 20px;
   border-radius: 20px;
   margin-right: 90px;
-  margin-top: 40px p;
-  margin-top-text-align: center;
+  margin-top: 40px;
 }
-.col .name {
-  font-weight: 1000;
+.info .col p {
+  text-align: center;
+}
+.info .col .name {
+  font-weight: 700;
   text-align: left;
 }
-.col .extra {
+.info .col .extra {
   text-align: center;
   font-size: 12px;
-}
-
-.h-info {
-  color: #3B7679;
-  padding-top: 60px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 1000;
-}
-
-.formulario-texto {
-  color: #c3dfe0;
-  text-align: center;
-  font-weight: 700;
 }
 
 .info-formulario {
   background-color: #090909;
 }
-.info-formulario .form-label {
-  font-weight: 1000;
+.info-formulario .h-info {
   color: #3B7679;
+  padding-top: 60px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.info-formulario .formulario-texto {
+  color: #c3dfe0;
+  text-align: center;
+  font-weight: 700;
 }
 .info-formulario .formulario-contenedor {
   max-width: 500px;
   margin: 0 auto;
   padding: 0 20px;
+}
+.info-formulario .form-label {
+  font-weight: 700;
+  color: #3B7679;
 }
 .info-formulario form {
   display: flex;
@@ -352,17 +346,88 @@ main h1 .color {
   border-radius: 15px;
 }
 
-main h1 {
+.login-page {
+  background-color: #090909;
+  min-height: 100vh;
+}
+.login-page .login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 60px 60px 200px;
+  gap: 40px;
+}
+.login-page .login-left {
+  font-size: 20px;
+  padding-left: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-page .login-left h1 {
+  color: #3B7679;
+  font-size: 100px;
   padding-top: 50px;
+  padding-right: 70px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   gap: 15px;
 }
-main p .normal {
+.login-page .login-left p .normal {
   color: #c3dfe0;
 }
-main p .color {
+.login-page .login-left p .color {
   color: #3B7679;
+}
+.login-page .login-right {
+  width: 50%;
+  background-color: #5D8679;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-page .login-right h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #c3dfe0;
+}
+.login-page .login-right p {
+  color: #c3dfe0;
+}
+.login-page .login-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-page .login-right .mb-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.login-page .login-right .mb-3 .form-label {
+  color: #c3dfe0;
+  font-weight: 600;
+}
+.login-page .login-right .mb-3 input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  background-color: rgba(95, 95, 95, 0.39);
+  color: #c3dfe0;
+}
+.login-page .login-right .btn-login {
+  align-self: center;
+  color: whitesmoke;
+  max-width: 220px;
+  margin: 10px;
+  padding: 20px 35px;
+  border-radius: 15px;
+  background-color: #3B7679;
+  color: #c3dfe0;
 }
 
 /*# sourceMappingURL=main.css.map */
