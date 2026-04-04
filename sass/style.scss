@@ -384,7 +384,7 @@ footer{
 
 //mq mobile
 @media (max-width: 768px) {
-
+    
     header {
         padding: 0 10px;
 
@@ -394,7 +394,7 @@ footer{
         }
 
         nav {
-            margin-right: auto;
+            margin:0 auto;
             ul {
                 gap: 20px;
                 font-size: 13px;

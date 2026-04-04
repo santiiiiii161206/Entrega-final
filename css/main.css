@@ -439,7 +439,7 @@ footer p span {
     margin-right: 10px;
   }
   header nav {
-    margin-right: auto;
+    margin: 0 auto;
   }
   header nav ul {
     gap: 20px;
