@@ -430,4 +430,154 @@ footer p span {
   color: #c3dfe0;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 0 10px;
+  }
+  header img {
+    width: 110px;
+    margin-right: 10px;
+  }
+  header nav {
+    margin-right: auto;
+  }
+  header nav ul {
+    gap: 20px;
+    font-size: 13px;
+  }
+  header div {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  main {
+    flex-direction: column;
+    padding: 0;
+    min-height: auto;
+  }
+  main .imagen {
+    display: none;
+  }
+  main .texto {
+    width: 100%;
+    padding: 0 40px;
+  }
+  main .texto h1 {
+    font-size: 48px;
+    text-align: center;
+    align-self: center;
+  }
+  main .texto p {
+    max-width: 100%;
+    text-align: center;
+  }
+  main .texto .Producto {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  main .texto .Contactar {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  main .texto .col {
+    margin-right: 0;
+  }
+  .Second h2 {
+    font-size: 26px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .Second .row {
+    justify-content: center;
+  }
+  .Second .col-2 {
+    width: 45%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .Second .especifico {
+    margin: 60px auto;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  .contact-styles {
+    padding: 30px 0;
+  }
+  .contact-styles .texto-2 {
+    width: 90%;
+    font-size: 14px;
+  }
+  .contact-styles .our-team {
+    font-size: 36px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .info .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info .col {
+    width: 90%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .info .col p {
+    text-align: center;
+  }
+  .info .col .name {
+    text-align: center;
+  }
+  .info-formulario .h-info {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .info-formulario .formulario-contenedor {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .info-formulario .formulario-texto {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+  .info-formulario .btn-enviar {
+    width: 80%;
+  }
+  .login-page {
+    min-height: auto;
+  }
+  .login-page .login-container {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  .login-page .login-left {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  .login-page .login-left h1 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-right: 0px;
+  }
+  .login-page .login-left p {
+    text-align: center;
+  }
+  .login-page .login-right {
+    width: 100%;
+    padding: 20px;
+  }
+  .login-page .login-right .btn-login {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
